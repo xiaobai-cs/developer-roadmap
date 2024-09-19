@@ -34,7 +34,7 @@
 <ResourceGroupTitle>免费内容</ResourceGroupTitle]
 ```
 
-*使用“BadgeLink”标签进行资源链接，并遵循以下指南
+* 使用“BadgeLink”标签进行资源链接，并遵循以下指南
 
 ```html
 <!-- 官方网站和文档的蓝色配色方案-->
