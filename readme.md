@@ -1,7 +1,7 @@
 <p align="center">
   <img src="public/brand.png" height="128">
   <h2 align="center">roadmap.sh</h2>
-  <p align="center">Community driven roadmaps, articles and resources for developers<p>
+  <p align="center">面向开发人员的社区驱动型路线图、文章和资源<p>
   <p align="center">
     <a href="https://roadmap.sh/roadmaps">
     	<img src="https://img.shields.io/badge/-Roadmaps%20-0a0a0a.svg?style=flat&colorA=0a0a0a" alt="roadmaps" />
@@ -22,39 +22,39 @@
 
 ![](https://i.imgur.com/waxVImv.png)
 
-Roadmaps are now interactive, you can click the nodes to read more about the topics.
+路线图现在是交互式的，您可以单击节点以阅读有关主题的更多信息。
 
-### [View all Roadmaps](https://roadmap.sh)
-
-![](https://i.imgur.com/waxVImv.png)
-
-Here is the list of available roadmaps with more being actively worked upon.
-
-- [Frontend Roadmap](https://roadmap.sh/frontend)
-- [Backend Roadmap](https://roadmap.sh/backend)
-- [DevOps Roadmap](https://roadmap.sh/devops)
-- [QA Roadmap](https://roadmap.sh/qa)
-- [Software Architect Roadmap](https://roadmap.sh/software-architect)
-- [JavaScript Roadmap](https://roadmap.sh/javascript)
-- [React Roadmap](https://roadmap.sh/react)
-- [Vue Roadmap](https://roadmap.sh/vue)
-- [Angular Roadmap](https://roadmap.sh/angular)
-- [Node.js Roadmap](https://roadmap.sh/nodejs)
-- [Android Roadmap](https://roadmap.sh/android)
-- [Python Roadmap](https://roadmap.sh/python)
-- [Go Roadmap](https://roadmap.sh/golang)
-- [Java Roadmap](https://roadmap.sh/java)
-- [Design System Roadmap](https://roadmap.sh/design-system)
-- [DBA Roadmap](https://roadmap.sh/postgresql-dba)
-- [Blockchain Roadmap](https://roadmap.sh/blockchain)
+### [查看所有路线图](https://roadmap.sh)
 
 ![](https://i.imgur.com/waxVImv.png)
 
-If you think that these can be improved in any way, please do suggest. Also, if you would like to contribute to existing roadmaps or add a new roadmap, please open an issue or reach out to [@kamranahmedse](https://twitter.com/kamranahmedse).
+以下是可用路线图的列表，还有更多路线图正在积极制定中。
 
-## Development
+- [前端路线图](https://roadmap.sh/frontend)
+- [后端路线图](https://roadmap.sh/backend)
+- [DevOps 路线图](https://roadmap.sh/devops)
+- [QA 路线图](https://roadmap.sh/qa)
+- [软件架构师路线图](https://roadmap.sh/software-architect)
+- [JavaScript 路线图](https://roadmap.sh/javascript)
+- [React 路线图](https://roadmap.sh/react)
+- [Vue 路线图](https://roadmap.sh/vue)
+- [Angular 路线图](https://roadmap.sh/angular)
+- [Node.js 路线图](https://roadmap.sh/nodejs)
+- [Android 路线图](https://roadmap.sh/android)
+- [Python 路线图](https://roadmap.sh/python)
+- [Go 路线图](https://roadmap.sh/golang)
+- [Java 路线图](https://roadmap.sh/java)
+- [设计系统路线图](https://roadmap.sh/design-system)
+- [DBA 路线图](https://roadmap.sh/postgresql-dba)
+- [区块链路线图](https://roadmap.sh/blockchain)
 
-Clone the repository, install the dependencies and start the application
+![](https://i.imgur.com/waxVImv.png)
+
+如果您认为这些可以以任何方式改进，请提出建议。此外，如果您想为现有路线图做出贡献或添加新的路线图，请打开一个问题或联系 [@kamranahmedse](https://twitter.com/kamranahmedse).
+
+## 开发
+
+克隆存储库，安装依赖项并启动应用程序
 
 ```bash
 git clone git@github.com:kamranahmedse/developer-roadmap.git
@@ -62,22 +62,22 @@ npm install
 npm run dev
 ```
 
-## Contribution
+## 贡献
 
-> Have a look at [contribution docs](./contributing.md) for how to update any of the roadmaps
+> 查看 [贡献文档](./contributing.md) ，了解如何更新任何路线图。
 
-- Add content to roadmaps
-- Add new roadmaps
-- Suggest changes to existing roadmaps
-- Discuss ideas in issues
-- Spread the word
+- 将内容添加到路线图
+- 添加新路线图
+- 对现有路线图提出更改建议
+- 在 Issue 中讨论想法
+- 传播信息
 
-## Thanks to all contributors ❤
+## 感谢所有贡献者 ❤
 
  <a href = "https://github.com/kamranahmedse/developer-roadmap/graphs/contributors">
    <img src = "https://contrib.rocks/image?repo=kamranahmedse/developer-roadmap"/>
  </a>
 
-## License
+## 许可证
 
-Have a look at the [license file](./license) for details
+有关详细信息，请查看 [许可证文件](./license) 
