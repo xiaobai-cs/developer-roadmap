@@ -2,10 +2,10 @@
 
 首先，感谢您考虑做出贡献。请查看以下详细信息：
 
-* [新路线图]（# 新路线图）
-* [现有路线图]（# 现有路线图）
-* [添加内容]（# 添加内容）
-* [指南]（# 指南）
+- [新路线图]（#新路线图）
+- [现有路线图]（#现有路线图）
+- [添加内容]（#添加内容）
+- [指南]（#指南）
 
 ## 新路线图
 
@@ -26,15 +26,15 @@
 
 请注意，标记有特定的格式。请按照此处给出的降价示例格式进行操作。
 
-* 表示节点项的文件的标题。
-* 添加描述路线图节点的简短摘要（最好少于200个字符）
-* 在资源标题中使用`ResourceGroupTitle`标签
+- 表示节点项的文件的标题。
+- 添加描述路线图节点的简短摘要（最好少于200个字符）
+- 在资源标题中使用`ResourceGroupTitle`标签
 
 ```html
 <ResourceGroupTitle>免费内容</ResourceGroupTitle>
 ```
 
-* 使用`BadgeLink`标签进行资源链接，并遵循以下指南
+- 使用`BadgeLink`标签进行资源链接，并遵循以下指南
 
 ```html
 
@@ -49,8 +49,6 @@
 
 <!-- 博客文章和可读文本的黄色配色方案-->
 <BadgeLink colorScheme='yellow' badgeText='Read' href='https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/'>什么是DNS?</BadgeLink>
-
-
 ```
 
 ## 指导方针
