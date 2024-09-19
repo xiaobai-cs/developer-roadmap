@@ -1,76 +1,61 @@
-# Code of Conduct
+# 贡献
 
-## Our Pledge
+首先，感谢您考虑做出贡献。请查看以下详细信息：
 
-In the interest of fostering an open and welcoming environment, we as
-contributors and maintainers pledge to make participation in our project and
-our community a harassment-free experience for everyone, regardless of age, body
-size, disability, ethnicity, sex characteristics, gender identity and expression,
-level of experience, education, socio-economic status, nationality, personal
-appearance, race, religion, or sexual identity and orientation.
+* [新路线图]（#新路线图）
+* [现有路线图]（#现有路线图）
+* [添加内容]（#添加内容）
+* [指南]（#指南）
 
-## Our Standards
+## 新路线图
 
-Examples of behavior that contributes to creating a positive environment
-include:
+对于新的路线图，通过提供[类似于此路线图的文本路线图]提交路线图(https://gist.github.com/kamranahmedse/98758d2c73799b3a6ce17385e4c548a5)在一个问题上。
 
-* Using welcoming and inclusive language
-* Being respectful of differing viewpoints and experiences
-* Gracefully accepting constructive criticism
-* Focusing on what is best for the community
-* Showing empathy towards other community members
+## 现有路线图
 
-Examples of unacceptable behavior by participants include:
+对于现有的路线图，请按照捐款性质列出的详细信息进行操作：
 
-* The use of sexualized language or imagery and unwelcome sexual attention or
-  advances
-* Trolling, insulting/derogatory comments, and personal or political attacks
-* Public or private harassment
-* Publishing others' private information, such as a physical or electronic
-  address, without explicit permission
-* Other conduct which could reasonably be considered inappropriate in a
-  professional setting
+***修复拼写错误** --在[路线图JSON文件]中进行更改(https://github.com/kamranahmedse/developer-roadmap/tree/master/public/project)
+***添加或删除节点**- -请根据您的建议提出问题。
 
-## Our Responsibilities
+**注：** 请注意，我们的目标不是拥有最大的项目列表。我们的目标是列出今天最相关的项目或技能。
 
-Project maintainers are responsible for clarifying the standards of acceptable
-behavior and are expected to take appropriate and fair corrective action in
-response to any instances of unacceptable behavior.
+## 添加内容
 
-Project maintainers have the right and responsibility to remove, edit, or
-reject comments, commits, code, wiki edits, issues, and other contributions
-that are not aligned to this Code of Conduct, or to ban temporarily or
-permanently any contributor for other behaviors that they deem inappropriate,
-threatening, offensive, or harmful.
+查找[相关路线图中的内容目录](https://github.com/kamranahmedse/developer-roadmap/tree/master/content/roadmaps).
 
-## Scope
+请注意，标记有特定的格式。请按照此处给出的降价示例格式进行操作。
 
-This Code of Conduct applies within all project spaces, and it also applies when
-an individual is representing the project or its community in public spaces.
-Examples of representing a project or community include using an official
-project e-mail address, posting via an official social media account, or acting
-as an appointed representative at an online or offline event. Representation of
-a project may be further defined and clarified by project maintainers.
+* 表示节点项的文件的标题。
+* 添加描述路线图节点的简短摘要（最好少于200个字符）
+* 在资源标题中使用“ResourceGroupTitle”标签
 
-## Enforcement
+```html
+<ResourceGroupTitle>免费内容</ResourceGroupTitle]
+```
 
-Instances of abusive, harassing, or otherwise unacceptable behavior may be
-reported by contacting the project team at <kamranahmed.se@gmail.com>. All
-complaints will be reviewed and investigated and will result in a response that
-is deemed necessary and appropriate to the circumstances. The project team is
-obligated to maintain confidentiality with regard to the reporter of an incident.
-Further details of specific enforcement policies may be posted separately.
+*使用“BadgeLink”标签进行资源链接，并遵循以下指南
 
-Project maintainers who do not follow or enforce the Code of Conduct in good
-faith may face temporary or permanent repercussions as determined by other
-members of the project's leadership.
+```html
+<!-- 官方网站和文档的蓝色配色方案-->
+<BadgeLink配色方案=“蓝色”badgeText=“官方网站”href='https://reactjs.org/'>反应网站</BaggeLink>
 
-## Attribution
+<!-- 课程的绿色配色方案-->
+<BadgeLink badgeText=“课程”配色方案=“绿色”href='https://example.com“>反应初学者指南</BageLink>
 
-This Code of Conduct is adapted from the [Contributor Covenant][homepage], version 1.4,
-available at https://www.contributor-covenant.org/version/1/4/code-of-conduct.html
+<!-- 视频链接没有配色方案-->
+<BadgeLink徽章文本=“观看”href=“https://www.youtube.com/watch?v=i793Qm6kv3U'>了解React的UI渲染过程</BageLink>
 
-[homepage]: https://www.contributor-covenant.org
+<!-- 博客文章和可读文本的黄色配色方案-->
+<BadgeLink配色方案=“黄色”badgeText=“阅读”href='https://www.cloudflare.com/en-gb/learning/dns/what-is-dns/“>什么是DNS</徽章链接>
 
-For answers to common questions about this code of conduct, see
-https://www.contributor-covenant.org/faq
+```
+
+## 指导方针
+
+- <p><strong>添加所有可用的东西不是目标</strong><br/>路线图代表了当今最有价值的技能，即，如果你今天进入列出的任何领域，你会学到什么？！当然，今天可能会使用一些东西，但要优先考虑今天最需要的东西，例如，同意今天很多人都在使用angular.js，但你不想学习它而不是React、angular或Vue。用你的批判性思维过滤掉不必要的东西。诚实地论证为什么应该包括资源</p
+- <p><strong>不要添加你没有亲自评估过的东西</strong><br/>用你的批判性思维过滤掉不必要的东西。诚实地论证为什么应该包括资源。你读过这本书吗？你能写一篇短文吗</p
+- <p><strong>为内容添加创建单个PR</strong></p>
+如果您计划通过向路线图添加内容来做出贡献，我建议您克隆存储库，将内容添加到[路线图的内容目录]（./content/roadmaps/）中，并创建一个PR，以便我更容易查看和合并PR。
+- 写有意义的提交消息
+- 在打开新问题之前查看现有问题/拉取请求
